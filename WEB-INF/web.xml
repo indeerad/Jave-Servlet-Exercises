@@ -9,9 +9,19 @@
     <servlet-class>FirstServlet</servlet-class>
 </servlet>
 
+<servlet>
+    <servlet-name>Second</servlet-name>
+    <servlet-class>SecondServlet</servlet-class>
+</servlet>
+
 <servlet-mapping>
     <servlet-name>First</servlet-name>
     <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>Second</servlet-name>
+    <url-pattern>/sec</url-pattern>
 </servlet-mapping>
 
 </web-app>
